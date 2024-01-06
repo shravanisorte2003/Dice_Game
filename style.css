@@ -1,0 +1,50 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+body {
+    font-family: Poppins, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #c86969;
+    background-image: url("DICE.jpeg");
+
+  }
+  
+  .container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dice-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .dice {
+    width: 200px;
+    height: 200px;
+    margin: 0 10px;
+  }
+  .title{
+    color:rgb(164, 10, 241);
+
+  }
+  
+  
+  .button {
+   
+    margin-bottom: 20px;
+  }
+  
+  .result {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
